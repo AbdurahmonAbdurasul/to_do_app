@@ -34,7 +34,7 @@ class Plan extends StatelessWidget {
           onPressed: () {
             deletePlan(plan.id);
           },
-          icon: Icon(
+          icon:const Icon(
             Icons.delete_forever_rounded,
             size: 20,
             color: Colors.red,

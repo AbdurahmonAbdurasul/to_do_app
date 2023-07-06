@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:to_do_list/models/plan_models.dart';
-import 'package:to_do_list/widgets/new_plan_add.dart';
+import './models/plan_models.dart';
+import './widgets/new_plan_add.dart';
 import './widgets/plan_date.dart';
 import './widgets/plan_details.dart';
 import './widgets/plans_list.dart';

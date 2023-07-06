@@ -20,12 +20,18 @@ class PlansList extends StatelessWidget {
             )
           : Column(
               children: [
-                Text("No plans, Create ones",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),),
-                SizedBox(height:20),
+                const Text(
+                  "No plans, Create ones",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
+                ),
+                SizedBox(height: 20),
                 Image.asset(
-                  "assets/images/sleep.png"
-                ,fit: BoxFit.cover,
-                width: 150,
+                  "assets/images/sleep.png",
+                  fit: BoxFit.cover,
+                  width: 150,
                 ),
               ],
             ),
